@@ -1,5 +1,4 @@
-# yallalive.vps
-## OS: Ubuntu 22.04.2 LTS
+# yallalive.vps Ubuntu 22.04.2 LTS
 ## MongoDB
 1. To check the status of the MongoDB service. run:
 ```code
@@ -18,8 +17,15 @@ db.runCommand({connectionStatus : 1})
 ```mongo shell
  show dbs
 ```
-6. switvh to yallalivedb databasse:
+6. switch to yallalivedb database:
 ```mongo shell
  use yallalivedb
 ```
-
+7- To show a list of all collections in yallalivedb
+```mongo shell
+show collections
+```
+8- To show content of a particular collection, i.e. **products**
+```mongo shell
+db.products.find()
+```
