@@ -21,11 +21,11 @@ db.runCommand({connectionStatus : 1})
 ```mongo shell
  use yallalivedb
 ```
-7- To show a list of all collections in yallalivedb
+7. To show a list of all collections in yallalivedb
 ```mongo shell
 show collections
 ```
-8- To show content of a particular collection, i.e. **products**
+8. To show content of a particular collection, i.e. **products**
 ```mongo shell
 db.products.find()
 ```
