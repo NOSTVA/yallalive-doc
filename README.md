@@ -9,18 +9,17 @@ ssh root@<server ip address>
 
 
 ## NGINX
-1. To check yallalive nginx configurations, run the following command in your terminal:
+1. To check the Yallalive NGINX configurations, run the following command in your terminal:
 ```code
 cd /etc/nginx/sites-available/
 nano yallalive
 ```
-2. To check the status of the Nginx service, run the following command in your terminal:
+2. To check the status of the NGINX service, run the following command in your terminal:
 ```code
 systemctl status nginx
 ```
-3. Yallalive React build files are be located in `/var/www/yallalive/client`
-4. Yallalive Node.js App runs on port 3000
-
+3. The Yallalive React build files are located in the following directory: `/var/www/yallalive/client`
+4. The Yallalive Node.js App runs on port 3000.
 
 
 ## MongoDB
