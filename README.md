@@ -7,7 +7,7 @@ ssh root@<server ip address>
 ```
 
 ## Project Directory
-1. o navigate to the Yallalive project directory, run the following command in your terminal:
+1. To navigate to the Yallalive project directory, run the following command in your terminal:
 ```code
 cd ~/app/yallalive-hostinger
 ```
