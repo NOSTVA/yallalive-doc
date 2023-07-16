@@ -33,10 +33,10 @@ cd /etc/nginx/sites-available/
 nano yallalive
 ```
 3. The Yallalive React build files are located in the following directory: `/var/www/yallalive/client`
-4. The Yallalive Node.js App runs on port 3000.
+4. The Yallalive Node.js App runs on port 3000 using pm2.
 
 ## PM2
-Yallalive Node.js proccess is managed by PM2 with the name **api** and id **0**
+Yallalive Node.js proccess is managed by PM2 with name **(api)** and id **(0)**
 1. To check the status of yallalive process:
 ```code
 pm2 status 0
@@ -51,7 +51,7 @@ pm2 restart 0
 ```
 
 ## MongoDB
-To use MongoDB on your yallalive.vps Ubuntu 22.04.2 LTS server, follow these steps:
+To use MongoDB on your yallalive.vps server, follow these steps:
 1. To check the status of the MongoDB service, run the following command in your terminal:
 ```code
 systemctl status mongod
