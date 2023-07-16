@@ -1,4 +1,28 @@
 # yallalive.vps Ubuntu 22.04.2 LTS
+
+## Connecting to the VPS
+To connect your VPS server, you can use your server IP, you can create a root password and enter the server with your IP address and password credentials. But the more secure way is using an SSH key.
+```code
+ssh root@<server ip address> 
+```
+
+
+
+## NGINX
+1. To check yallalive nginx configurations, run the following command in your terminal:
+```code
+cd /etc/nginx/sites-available/
+nano yallalive
+```
+2. To check the status of the Nginx service, run the following command in your terminal:
+```code
+systemctl status nginx
+```
+3. Yallalive React build files are be located in `/var/www/yallalive/client`
+4. Yallalive Node.js App runs on port 3000
+
+
+
 ## MongoDB
 To use MongoDB on your yallalive.vps Ubuntu 22.04.2 LTS server, follow these steps:
 1. To check the status of the MongoDB service, run the following command in your terminal:
